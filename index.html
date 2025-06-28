@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essenza - Clínica de Estética | Beleza e Bem-estar</title>
+  <meta name="description"
+    content="Clínica de estética Essenza - Tratamentos faciais e corporais com tecnologia avançada. Agende sua avaliação gratuita.">
+
+  <!-- Meta SEO -->
+  <meta name="author" content="Essenza Clínica de Estética">
+  <meta name="keywords"
+    content="estética, clínica de estética, tratamentos faciais, tratamentos corporais, beleza, Essenza, estética São Paulo">
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:title" content="Essenza - Clínica de Estética | Beleza e Bem-estar">
+  <meta property="og:description"
+    content="Tratamentos faciais e corporais personalizados com tecnologia de ponta. Agende sua avaliação gratuita.">
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80">
+  <meta property="og:url" content="https://www.essenza.com.br">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Essenza - Clínica de Estética">
+  <meta name="twitter:description"
+    content="Tratamentos personalizados para realçar sua beleza com tecnologia de ponta.">
+  <meta name="twitter:image"
+    content="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <div class="nav-container">
+        <div class="logo">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#D8A7A7" />
+                <stop offset="100%" style="stop-color:#A8BDB1" />
+              </linearGradient>
+            </defs>
+            <path d="M20 2C28.8 2 36 9.2 36 18C36 26.8 28.8 34 20 34C11.2 34 4 26.8 4 18C4 9.2 11.2 2 20 2Z"
+              fill="url(#logoGradient)" opacity="0.8" />
+            <path d="M15 12C15 10.9 15.9 10 17 10H23C24.1 10 25 10.9 25 12V16L20 20L15 16V12Z" fill="white" />
+            <circle cx="20" cy="25" r="3" fill="white" />
+            <path
+              d="M12 22C12 21.4 12.4 21 13 21H27C27.6 21 28 21.4 28 22C28 22.6 27.6 23 27 23H13C12.4 23 12 22.6 12 22Z"
+              fill="white" opacity="0.7" />
+          </svg>
+          <span>Essenza</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#tratamentos">Tratamentos</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Desperte sua beleza natural com elegância e sofisticação</h1>
+        <p>Na Essenza, transformamos sua autoestima através de tratamentos personalizados e tecnologia de ponta, em um
+          ambiente acolhedor e exclusivo.</p>
+        <button class="cta-button" onclick="scrollToContact()">Agende sua Avaliação</button>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+          alt="Ambiente da Clínica Essenza">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre Section -->
+  <section id="sobre" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>Bem-vinda à Essenza</h2>
+          <p>Nossa missão é realçar sua beleza natural através de tratamentos personalizados e tecnologias inovadoras.
+            Com mais de 10 anos de experiência, criamos um espaço onde sofisticação e acolhimento se encontram.</p>
+          <p>Acreditamos que cada cliente é única, por isso desenvolvemos protocolos exclusivos que respeitam suas
+            necessidades e desejos, sempre priorizando sua segurança e bem-estar.</p>
+        </div>
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+            alt="Interior da Clínica">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tratamentos Section -->
+  <section id="tratamentos" class="treatments">
+    <div class="container">
+      <h2>Nossos Tratamentos</h2>
+      <div class="treatments-grid">
+        <div class="treatment-card">
+          <div class="treatment-icon">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+              <circle cx="30" cy="30" r="25" fill="#D8A7A7" opacity="0.2" />
+              <path
+                d="M30 15C33.3 15 36 17.7 36 21V24C36 27.3 33.3 30 30 30C26.7 30 24 27.3 24 24V21C24 17.7 26.7 15 30 15Z"
+                fill="#D8A7A7" />
+              <path
+                d="M20 35C20 32.8 21.8 31 24 31H36C38.2 31 40 32.8 40 35V40C40 42.2 38.2 44 36 44H24C21.8 44 20 42.2 20 40V35Z"
+                fill="#A8BDB1" />
+            </svg>
+          </div>
+          <h3>Tratamentos Faciais</h3>
+          <p>Limpeza de pele, peeling, microagulhamento, radiofrequência facial e protocolos anti-aging personalizados.
+          </p>
+        </div>
+
+        <div class="treatment-card">
+          <div class="treatment-icon">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+              <ellipse cx="30" cy="30" rx="18" ry="25" fill="#A8BDB1" opacity="0.2" />
+              <path
+                d="M25 20C25 18.9 25.9 18 27 18H33C34.1 18 35 18.9 35 20V35C35 36.1 34.1 37 33 37H27C25.9 37 25 36.1 25 35V20Z"
+                fill="#A8BDB1" />
+              <circle cx="30" cy="42" r="3" fill="#D8A7A7" />
+            </svg>
+          </div>
+          <h3>Tratamentos Corporais</h3>
+          <p>Drenagem linfática, criolipólise, radiofrequência corporal, massagem modeladora e tratamentos para
+            celulite.</p>
+        </div>
+
+        <div class="treatment-card">
+          <div class="treatment-icon">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+              <rect x="15" y="20" width="30" height="20" rx="5" fill="#D8A7A7" opacity="0.2" />
+              <path d="M20 25H40V30H35L32 35H28L25 30H20V25Z" fill="#D8A7A7" />
+              <circle cx="22" cy="27" r="2" fill="#A8BDB1" />
+              <circle cx="38" cy="27" r="2" fill="#A8BDB1" />
+            </svg>
+          </div>
+          <h3>Tecnologias Avançadas</h3>
+          <p>HIFU, laser de diodo, ultrassom microfocado, LED terapia e equipamentos de última geração.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diferenciais Section -->
+  <section class="differentials">
+    <div class="container">
+      <h2>Por que escolher a Essenza?</h2>
+      <div class="differentials-grid">
+        <div class="differential-item">
+          <div class="differential-icon">❤️</div>
+          <h3>Atendimento Humanizado</h3>
+          <p>Cuidado personalizado com foco no seu bem-estar e conforto</p>
+        </div>
+        <div class="differential-item">
+          <div class="differential-icon">🎓</div>
+          <h3>Profissionais Certificados</h3>
+          <p>Equipe altamente qualificada e em constante atualização</p>
+        </div>
+        <div class="differential-item">
+          <div class="differential-icon">✨</div>
+          <h3>Ambiente Sofisticado</h3>
+          <p>Espaço elegante e acolhedor para sua experiência única</p>
+        </div>
+        <div class="differential-item">
+          <div class="differential-icon">📈</div>
+          <h3>Resultados Reais</h3>
+          <p>Protocolos comprovados com resultados visíveis e duradouros</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Antes e Depois Section -->
+  <section id="resultados" class="before-after">
+    <div class="container">
+      <h2>Resultados que Transformam</h2>
+      <div class="slider-container">
+        <div class="slider" id="beforeAfterSlider">
+          <div class="slide active">
+            <div class="comparison">
+              <div class="before-image">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1726833631016-e55b6a382bbb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Antes do tratamento">
+                <span class="label">Antes</span>
+              </div>
+              <div class="after-image">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1683133391462-54a033107968?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Após o tratamento">
+                <span class="label">Depois</span>
+              </div>
+            </div>
+            <p>Tratamento facial anti-aging - 3 sessões</p>
+          </div>
+          <div class="slide">
+            <div class="comparison">
+              <div class="before-image">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1661255404663-71438ce6f9e2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Antes do tratamento corporal">
+                <span class="label">Antes</span>
+              </div>
+              <div class="after-image">
+                <img
+                  src="https://images.unsplash.com/photo-1643848950187-a5658454e278?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Após tratamento corporal">
+                <span class="label">Depois</span>
+              </div>
+            </div>
+            <p>Tratamento corporal modelador - 6 sessões</p>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="prev" onclick="changeSlide(-1)">‹</button>
+          <div class="dots">
+            <span class="dot active" onclick="currentSlideFunc(1)"></span>
+            <span class="dot" onclick="currentSlideFunc(2)"></span>
+          </div>
+          <button class="next" onclick="changeSlide(1)">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos Section -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>O que nossas clientes dizem</h2>
+      <div class="testimonials-carousel" id="testimonialsCarousel">
+        <div class="testimonial active">
+          <div class="testimonial-content">
+            <p>"A Essenza transformou minha autoestima! O atendimento é excepcional e os resultados superaram minhas
+              expectativas. Recomendo de olhos fechados!"</p>
+            <div class="testimonial-author">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1689551670902-19b441a6afde?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Marina Silva">
+              <div>
+                <h4>Marina Silva</h4>
+                <span>Empresária</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"Profissionais incríveis e ambiente acolhedor. Fiz tratamento facial e corporal, ambos com resultados
+              fantásticos. Já sou cliente há 2 anos!"</p>
+            <div class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                alt="Ana Costa">
+              <div>
+                <h4>Ana Costa</h4>
+                <span>Advogada</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"A tecnologia utilizada é de ponta e os protocolos são personalizados. Me sinto mais confiante e bonita a
+              cada sessão. Essenza é sinônimo de qualidade!"</p>
+            <div class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                alt="Carla Mendes">
+              <div>
+                <h4>Carla Mendes</h4>
+                <span>Médica</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials-dots">
+        <span class="dot active" onclick="showTestimonial(0)"></span>
+        <span class="dot" onclick="showTestimonial(1)"></span>
+        <span class="dot" onclick="showTestimonial(2)"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq">
+    <div class="container">
+      <h2>Perguntas Frequentes</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>Qual é a duração média dos tratamentos?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>A duração varia conforme o tratamento escolhido. Tratamentos faciais geralmente duram entre 60 a 90
+              minutos, enquanto tratamentos corporais podem durar de 90 a 120 minutos. Durante a avaliação, informaremos
+              o tempo exato do seu protocolo personalizado.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>Quantas sessões são necessárias para ver resultados?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Os resultados variam de acordo com o tratamento e o objetivo desejado. Alguns tratamentos mostram
+              resultados imediatos, enquanto outros requerem de 3 a 6 sessões. Nossa equipe criará um plano
+              personalizado durante sua avaliação gratuita.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>Os tratamentos são seguros?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Absolutamente! Utilizamos apenas equipamentos certificados pela ANVISA e nossa equipe é formada por
+              profissionais especializados e certificados. Seguimos rigorosamente todos os protocolos de segurança e
+              higiene.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>Há algum cuidado especial após os tratamentos?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Sim, fornecemos orientações específicas para cada tratamento realizado. Geralmente incluem uso de
+              protetor solar, hidratação adequada e evitar exposição solar excessiva. Nossa equipe te acompanhará
+              durante todo o processo.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>Posso fazer mais de um tratamento simultaneamente?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Sim! Muitas vezes combinamos tratamentos para potencializar os resultados. Durante sua consulta,
+              avaliaremos quais combinações são mais adequadas para seus objetivos e tipo de pele.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contato" class="contact">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info">
+          <h2>Entre em Contato</h2>
+          <p>Agende sua avaliação gratuita e descubra como podemos realçar sua beleza natural.</p>
+
+          <div class="contact-item">
+            <strong>📞 Telefone:</strong>
+            <span>(11) 3111-3111</span>
+          </div>
+
+          <div class="contact-item">
+            <strong>📱 WhatsApp:</strong>
+            <span>(11) 99111-3111</span>
+          </div>
+
+          <div class="contact-item">
+            <strong>📧 E-mail:</strong>
+            <span>contato@essenza.com.br</span>
+          </div>
+
+          <div class="contact-item">
+            <strong>📍 Endereço:</strong>
+            <span>Rua das Flores, 123 - Jardins<br>São Paulo - SP, 01234-567</span>
+            <a href="https://maps.google.com" target="_blank" class="maps-link">Ver no Google Maps</a>
+          </div>
+
+          <div class="social-media">
+            <h3>Siga-nos</h3>
+            <div class="social-icons">
+              <a href="#" aria-label="Instagram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" />
+                </svg>
+              </a>
+              <a href="#" aria-label="Facebook">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor"
+                    stroke-width="2" />
+                </svg>
+              </a>
+              <a href="#" aria-label="TikTok">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M9 12a4 4 0 1 0 4 4V6a5 5 0 0 0 5 5" stroke="currentColor" stroke-width="2" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <h3>Solicite um Orçamento</h3>
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" name="phone" placeholder="Seu telefone" required>
+          </div>
+          <div class="form-group">
+            <select id="treatment" name="treatment" required>
+              <option value="">Selecione o tratamento de interesse</option>
+              <option value="facial">Tratamentos Faciais</option>
+              <option value="corporal">Tratamentos Corporais</option>
+              <option value="tecnologia">Tecnologias Avançadas</option>
+              <option value="avaliacao">Avaliação Gratuita</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Conte-nos mais sobre seus objetivos" rows="4"></textarea>
+          </div>
+          <button type="submit" class="submit-button">Enviar Solicitação</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="footerLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#D8A7A7" />
+                <stop offset="100%" style="stop-color:#A8BDB1" />
+              </linearGradient>
+            </defs>
+            <path d="M20 2C28.8 2 36 9.2 36 18C36 26.8 28.8 34 20 34C11.2 34 4 26.8 4 18C4 9.2 11.2 2 20 2Z"
+              fill="url(#footerLogoGradient)" opacity="0.8" />
+            <path d="M15 12C15 10.9 15.9 10 17 10H23C24.1 10 25 10.9 25 12V16L20 20L15 16V12Z" fill="white" />
+            <circle cx="20" cy="25" r="3" fill="white" />
+            <path
+              d="M12 22C12 21.4 12.4 21 13 21H27C27.6 21 28 21.4 28 22C28 22.6 27.6 23 27 23H13C12.4 23 12 22.6 12 22Z"
+              fill="white" opacity="0.7" />
+          </svg>
+          <span>Essenza</span>
+        </div>
+        <p>&copy; 2024 Essenza Clínica de Estética. Todos os direitos reservados.</p>
+        <p>Desenvolvido com ❤️ para realçar sua beleza natural.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
